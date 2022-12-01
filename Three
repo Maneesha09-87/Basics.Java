@@ -1,0 +1,17 @@
+import java.util.*;
+public class Three
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();//X1
+        int b=sc.nextInt();//y1
+        int c=sc.nextInt();//X2
+        int d=sc.nextInt();//Y2
+        double x,y;
+        x=(a+c)/2;
+        y=(b+d)/2.0;
+        System.out.println("Binoy's house is located at ("+x+","+y+")");
+        
+    }
+}
