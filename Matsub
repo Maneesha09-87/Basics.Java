@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class Matsub
+{
+    public static void main(String[]args)
+    {
+        Scanner sc=new Scanner(System.in);
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int n[][]=new int[a][b];
+        int m[][]=new int[a][b];
+        int c[][]=new int[a][b];
+        int i,j;
+        for(i=0;i<a;i++)
+          for(j=0;j<b;j++)
+          {
+              n[i][j]=sc.nextInt();
+          }
+        for(i=0;i<a;i++)
+          for(j=0;j<b;j++)
+          {
+              m[i][j]=sc.nextInt();
+          }
+         for(i=0;i<a;i++)
+          for(j=0;j<b;j++)
+           {
+               c[i][j]=m[i][j]-n[i][j];
+               System.out.println(c[i][j]+ " ");
+           }
+    }
+}
