@@ -1,0 +1,20 @@
+import java.util.*;
+public class Assessment2
+{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        float p=sc.nextFloat();
+        float r=sc.nextFloat();
+        float t=sc.nextFloat();
+        float i=(p*t*r)/100;
+        System.out.printf("%.2f",i);
+        System.out.println();
+        System.out.printf("%.2f",(p+i));
+        float f=i/50;
+        System.out.println();
+        System.out.printf("%.2f",f);
+        System.out.println();
+        System.out.printf("%.2f",(p+i-f));
+        
+    }
+}
