@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class Assessment1 
+{
+    public static void main(String[]args)
+{
+   Scanner sc= new Scanner(System.in);
+   int weight=sc.nextInt();
+   int adult=sc.nextInt();
+   int children=sc.nextInt();
+   int a=75*adult;
+   int b=50*children;
+   if(weight>=(a+b))
+  {
+  System.out.println("Boat is stable");
+  }
+   else
+   System.out.println("Boat is unstable");
+}
+}
