@@ -1,0 +1,16 @@
+import java.util.*;
+public class String5
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String s=sc.nextLine();
+        String s1=sc.nextLine();
+        int v=s1.compareTo(s);
+        if(v==0)
+        System.out.println("Strings are same");
+        else
+         System.out.println("Strings are not same");
+        
+    }
+}
